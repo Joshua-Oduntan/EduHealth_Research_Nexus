@@ -129,7 +129,7 @@ body {
   width: 150%;
   display: block;
   /* Ensures white background on logo blends nicely if transparent, or sharp card presentation */
-  background: #ffffff5e;
+  background: #ffffffcc;
   padding: 4px 8px;
   border-radius: 4px;
 }
