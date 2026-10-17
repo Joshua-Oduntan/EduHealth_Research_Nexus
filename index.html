@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EduHealth Research Nexus</title>
-  <!-- Google Fonts for modern professional typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
@@ -13,14 +12,13 @@
 <body>
 
   <!-- HERO SECTION WITH NAVIGATION OVERLAY -->
-  <section class="hero-section">
-    <!-- Overlay for readability over background image -->
+  <section class="hero-section" id="home">
     <div class="hero-overlay"></div>
 
     <!-- HEADER / NAVIGATION -->
     <header class="navbar">
       <div class="container nav-container">
-        <a href="#" class="logo">
+        <a href="#home" class="logo">
           <img src="logo.png" alt="EduHealth Research Nexus Logo">
         </a>
 
@@ -36,8 +34,7 @@
             <li><a href="#home" class="active">HOME</a></li>
             <li><a href="#about">ABOUT US</a></li>
             <li><a href="#focus">FOCUS AREAS</a></li>
-            <li><a href="#research">RESEARCH</a></li>
-            <li><a href="#impact">IMPACT</a></li>
+            <li><a href="#values">CORE VALUES</a></li>
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
@@ -46,7 +43,6 @@
 
     <!-- HERO CONTENT -->
     <div class="container hero-content">
-      <!-- <span class="hero-badge">TRANSFORMATIVE RESEARCH & INNOVATION</span> -->
       <h1 class="hero-title">ADVANCING HEALTH & EDUCATION IN AFRICA</h1>
       <p class="hero-subtitle">
         Bridging the gap between data-driven research and practical impact to empower communities, strengthen institutions, and build resilient learning systems.
@@ -58,418 +54,470 @@
       </div>
     </div>
   </section>
+
+  <!-- ABOUT / FOCUS SECTION -->
   <section class="about-focus-section" id="about">
-  <div class="container">
-    
-    <!-- Section Header -->
-    <div class="section-header">
-      <h2>Bridging Research &amp; Impact</h2>
-      <div class="header-line"></div>
-      <p class="section-intro">
-        EduHealth Research Nexus Group is a multidisciplinary research organisation dedicated to advancing innovative solutions at the intersection of health, education, technology, and data-driven innovation within the African context.
-      </p>
-    </div>
-
-    <!-- 3-Column Image Gallery (Center prominence matching reference) -->
-    <div class="focus-gallery-grid">
-      <div class="gallery-card">
-        <div class="gallery-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=800" alt="Health Innovation Research">
-        </div>
-      </div>
-      
-      <div class="gallery-card center-card">
-        <div class="gallery-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=900" alt="Artificial Intelligence and Data Science">
-        </div>
-      </div>
-      
-      <div class="gallery-card">
-        <div class="gallery-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" alt="Collaborative Learning Systems">
-        </div>
-      </div>
-    </div>
-
-    <!-- Features / Highlights Grid Below -->
-    <div class="features-grid">
-      
-      <!-- Feature 1 -->
-      <div class="feature-item">
-        <div class="feature-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-        </div>
-        <div class="feature-text">
-          <h3>HEALTH INNOVATION</h3>
-          <p>Exploring research-driven solutions that address healthcare challenges and strengthen health systems.</p>
-        </div>
-      </div>
-
-      <!-- Feature 2 -->
-      <div class="feature-item">
-        <div class="feature-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-        </div>
-        <div class="feature-text">
-          <h3>AI &amp; DATA SCIENCE</h3>
-          <p>Leveraging emerging technologies and data-driven approaches to develop societal solutions.</p>
-        </div>
-      </div>
-
-      <!-- Feature 3 -->
-      <div class="feature-item">
-        <div class="feature-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-        </div>
-        <div class="feature-text">
-          <h3>RESEARCH TO PRACTICE</h3>
-          <p>Moving research beyond academic publications into practical tools and interventions that solve real problems.</p>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-<!-- CALL TO COLLABORATION / CTA BANNER SECTION -->
-<section class="cta-banner-section">
-  <div class="cta-overlay"></div>
-  <div class="container cta-container">
-    <h2 class="cta-title">
-      We power transformative research by bridging knowledge, AI, and data into actionable healthcare and educational solutions.
-    </h2>
-    <div class="cta-button-wrapper">
-      <a href="#contact" class="btn btn-outline-cta">GET STARTED NOW</a>
-    </div>
-  </div>
-</section>
-<!-- FOCUS AREAS / RESEARCH DOMAINS SECTION -->
-<section class="focus-areas-section" id="focus">
-  <div class="container">
-    
-    <!-- Section Header -->
-    <div class="section-header">
-      <h2>OUR FOCUS AREAS</h2>
-      <div class="header-line"></div>
-      <p class="section-intro">
-        We conduct collaborative, multidisciplinary research across core domains to transform health delivery, empower learning systems, and solve real-world challenges in Africa.
-      </p>
-    </div>
-
-    <!-- Filter Tabs (Matching Reference UI) -->
-    <div class="filter-tabs">
-      <button class="filter-btn active" data-filter="all">ALL DOMAINS</button>
-      <button class="filter-btn" data-filter="health">HEALTH INNOVATION</button>
-      <button class="filter-btn" data-filter="education">EDUCATION SYSTEMS</button>
-      <button class="filter-btn" data-filter="ai-data">AI &amp; DATA SCIENCE</button>
-      <button class="filter-btn" data-filter="digital">DIGITAL TRANSFORMATION</button>
-      <button class="filter-btn" data-filter="practice">RESEARCH TO PRACTICE</button>
-    </div>
-
-    <!-- Focus Grid (Interactive Cards) -->
-    <div class="focus-grid">
-      
-      <!-- Card 1 -->
-      <div class="focus-card" data-category="health">
-        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800" alt="Health Innovation">
-        <div class="card-overlay">
-          <div class="overlay-content">
-            <span class="plus-icon">+</span>
-            <h3 class="card-title">HEALTH INNOVATION</h3>
-            <p class="card-category">Strengthening Health Systems</p>
-            <p class="card-description">Exploring research-driven solutions to address healthcare challenges and promote better health outcomes.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="focus-card" data-category="education">
-        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800" alt="Education & Learning Systems">
-        <div class="card-overlay">
-          <div class="overlay-content">
-            <span class="plus-icon">+</span>
-            <h3 class="card-title">LEARNING SYSTEMS</h3>
-            <p class="card-category">Capacity Development</p>
-            <p class="card-description">Investigating innovative approaches to improve teaching, learning, and training across educational environments.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="focus-card" data-category="ai-data">
-        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800" alt="Artificial Intelligence & Data Science">
-        <div class="card-overlay">
-          <div class="overlay-content">
-            <span class="plus-icon">+</span>
-            <h3 class="card-title">AI &amp; DATA SCIENCE</h3>
-            <p class="card-category">Emerging Technologies</p>
-            <p class="card-description">Leveraging AI and data-driven approaches to solve complex healthcare and institutional challenges.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="focus-card" data-category="digital">
-        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800" alt="Digital Transformation">
-        <div class="card-overlay">
-          <div class="overlay-content">
-            <span class="plus-icon">+</span>
-            <h3 class="card-title">DIGITAL TRANSFORMATION</h3>
-            <p class="card-category">Institutional Development</p>
-            <p class="card-description">Developing technology-driven solutions that enhance healthcare delivery and research communication.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="focus-card" data-category="practice">
-        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" alt="Research to Practice">
-        <div class="card-overlay">
-          <div class="overlay-content">
-            <span class="plus-icon">+</span>
-            <h3 class="card-title">RESEARCH-TO-PRACTICE</h3>
-            <p class="card-category">Practical Interventions</p>
-            <p class="card-description">Creating practical tools, digital products, and policy solutions that move beyond academic papers.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 6 -->
-      <div class="focus-card" data-category="health">
-        <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=800" alt="Medical Training & Capacity">
-        <div class="card-overlay">
-          <div class="overlay-content">
-            <span class="plus-icon">+</span>
-            <h3 class="card-title">MEDICAL TRAINING</h3>
-            <p class="card-category">Competent Workforce</p>
-            <p class="card-description">Building capacity and developing innovative tools for health education and medical professionals.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- VISION & MISSION SECTION -->
-<section class="vision-mission-section" id="vision-mission">
-  <div class="container vm-container">
-    
-    <!-- Left Column: Vision & Mission Points -->
-    <div class="vm-content">
-      <h2>OUR VISION &amp; MISSION</h2>
-      <p class="vm-intro">
-        Driving change at the intersection of health, education, and technology through high-quality collaborative research and innovation.
-      </p>
-
-      <div class="vm-list">
-        
-        <!-- Vision Item -->
-        <div class="vm-item">
-          <div class="vm-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-          </div>
-          <div class="vm-text">
-            <h3>VISION STATEMENT</h3>
-            <p>To power transformative research at the intersection of health and education, leveraging data, artificial intelligence, and collaboration to build resilient learners, competent health workers, and stronger institutions.</p>
-          </div>
-        </div>
-
-        <!-- Mission Item -->
-        <div class="vm-item">
-          <div class="vm-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-          </div>
-          <div class="vm-text">
-            <h3>MISSION STATEMENT</h3>
-            <p>To conduct high-quality collaborative research that informs policy, develops innovative tools, and builds capacity in health education, medical training, and learning systems.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Right Column: Professional Image Placeholder -->
-    <div class="vm-image-wrapper">
-      <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1000" alt="Researchers collaborating on health and education innovation">
-    </div>
-
-  </div>
-</section>
-<!-- CORE VALUES SECTION -->
-<section class="core-values-section" id="values">
-  <div class="container">
-    
-    <!-- Section Header -->
-    <div class="section-header">
-      <h2>OUR CORE VALUES</h2>
-      <div class="header-line"></div>
-      <p class="section-intro">
-        Our work is anchored in shared principles that guide our research practices, partnerships, and commitment to sustainable change.
-      </p>
-    </div>
-
-    <!-- 5-Box Values Grid with Hover Reveal -->
-    <div class="values-grid">
-      
-      <!-- Value 1: Integrity -->
-      <div class="value-box" data-tooltip="We uphold ethical research practices, responsible data management, transparency, and credibility in all our activities.">
-        <div class="value-badge-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-        </div>
-        <div class="value-divider"><span></span></div>
-        <h3 class="value-title">INTEGRITY</h3>
-      </div>
-
-      <!-- Value 2: Equity -->
-      <div class="value-box" data-tooltip="We focus on research that addresses genuine community needs and ensures solutions are relevant and accessible.">
-        <div class="value-badge-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-        </div>
-        <div class="value-divider"><span></span></div>
-        <h3 class="value-title">EQUITY</h3>
-      </div>
-
-      <!-- Value 3: Innovation -->
-      <div class="value-box" data-tooltip="We embrace technology, creativity, and new approaches to solve complex problems.">
-        <div class="value-badge-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-        </div>
-        <div class="value-divider"><span></span></div>
-        <h3 class="value-title">INNOVATION</h3>
-      </div>
-
-      <!-- Value 4: Collaboration -->
-      <div class="value-box" data-tooltip="We believe impactful solutions emerge through partnerships across disciplines, institutions, and communities.">
-        <div class="value-badge-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
-        </div>
-        <div class="value-divider"><span></span></div>
-        <h3 class="value-title">COLLABORATION</h3>
-      </div>
-
-      <!-- Value 5: Impact -->
-      <div class="value-box" data-tooltip="We are committed to transforming research findings into practical solutions that create measurable change.">
-        <div class="value-badge-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
-        </div>
-        <div class="value-divider"><span></span></div>
-        <h3 class="value-title">IMPACT</h3>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- Dynamic Tooltip Element -->
-<div id="value-tooltip" class="custom-tooltip"></div>
-<!-- FOOTER / FINAL SECTION -->
-<footer class="footer-section" id="contact">
-  <div class="container">
-    
-    <!-- Top Footer Brand & Social Area -->
-    <div class="footer-top">
-      <div class="footer-logo-box">
-        <img src="logo.png" alt="EduHealth Research Nexus Logo">
-      </div>
-      <p class="footer-tagline">
-        Multidisciplinary research organisation advancing innovative solutions at the intersection of health, education, technology, and data-driven innovation within the African context.
-      </p>
-      <div class="footer-socials">
-        <a href="https://linkedin.com/company/eduhealth-research-nexus" target="_blank" aria-label="LinkedIn">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-        </a>
-        <a href="https://twitter.com/EduHealth_nexus" target="_blank" aria-label="Twitter / X">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-        </a>
-        <a href="https://instagram.com/eduhealthresearch_nexus" target="_blank" aria-label="Instagram">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-        </a>
-        <a href="mailto:info@eduhealthresearch.com" aria-label="Email">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-        </a>
-      </div>
-    </div>
-
-    <!-- Middle Footer Widget Columns (Matching Reference Layout) -->
-    <div class="footer-widgets">
-      
-      <!-- Widget 1: Get in Touch -->
-      <div class="footer-widget">
-        <h4>GET IN TOUCH</h4>
-        <p class="widget-desc">
-          We welcome collaboration with researchers, universities, healthcare institutions, and policymakers.
+    <div class="container">
+      <div class="section-header">
+        <h2>Bridging Research &amp; Impact</h2>
+        <div class="header-line"></div>
+        <p class="section-intro">
+          EduHealth Research Nexus Group is a multidisciplinary research organisation dedicated to advancing innovative solutions at the intersection of health, education, technology, and data-driven innovation within the African context.
         </p>
-        <ul class="contact-info-list">
-          <li>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            <span>info@eduhealthresearch.com</span>
-          </li>
-          <li>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-            <span>Africa &amp; International Operations</span>
-          </li>
-        </ul>
       </div>
 
-      <!-- Widget 2: Focus Tags -->
-      <div class="footer-widget">
-        <h4>RESEARCH DOMAINS</h4>
-        <div class="tag-cloud">
-          <a href="#focus">HEALTH INNOVATION</a>
-          <a href="#focus">EDUCATION SYSTEMS</a>
-          <a href="#focus">AI &amp; DATA SCIENCE</a>
-          <a href="#focus">DIGITAL TRANSFORMATION</a>
-          <a href="#focus">RESEARCH-TO-PRACTICE</a>
-          <a href="#focus">MEDICAL TRAINING</a>
-          <a href="#focus">POLICY</a>
-          <a href="#focus">COLLABORATION</a>
+      <div class="focus-gallery-grid">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=800" alt="Health Innovation Research">
+          </div>
+        </div>
+        
+        <div class="gallery-card center-card">
+          <div class="gallery-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=900" alt="Artificial Intelligence and Data Science">
+          </div>
+        </div>
+        
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" alt="Collaborative Learning Systems">
+          </div>
         </div>
       </div>
 
-      <!-- Widget 3: Latest Updates -->
-      <div class="footer-widget">
-        <h4>LATEST INITIATIVES</h4>
-        <div class="footer-news-item">
-          <p class="news-title">Bridging research to practice through digital health tools.</p>
-          <span class="news-date">Active Research</span>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          </div>
+          <div class="feature-text">
+            <h3>HEALTH INNOVATION</h3>
+            <p>Exploring research-driven solutions that address healthcare challenges and strengthen health systems.</p>
+          </div>
         </div>
-        <div class="footer-news-item">
-          <p class="news-title">Expanding AI and data science collaborations across African institutions.</p>
-          <span class="news-date">Partnership Open</span>
+
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <div class="feature-text">
+            <h3>AI &amp; DATA SCIENCE</h3>
+            <p>Leveraging emerging technologies and data-driven approaches to develop societal solutions.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          </div>
+          <div class="feature-text">
+            <h3>RESEARCH TO PRACTICE</h3>
+            <p>Moving research beyond academic publications into practical tools and interventions that solve real problems.</p>
+          </div>
         </div>
       </div>
-
-      <!-- Widget 4: Research Gallery Stream -->
-      <div class="footer-widget">
-        <h4>RESEARCH SNAPSHOTS</h4>
-        <div class="footer-gallery-grid">
-          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
-          <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
-          <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
-          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
-          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
-          <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
-        </div>
-      </div>
-
     </div>
+  </section>
 
-    <!-- Bottom Bar -->
-    <div class="footer-bottom">
-      <div class="footer-bottom-links">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT US</a>
-        <a href="#focus">FOCUS AREAS</a>
-        <a href="#values">CORE VALUES</a>
-        <a href="#contact">CONTACT</a>
+  <!-- CALL TO COLLABORATION BANNER -->
+  <section class="cta-banner-section">
+    <div class="cta-overlay"></div>
+    <div class="container cta-container">
+      <h2 class="cta-title">
+        We power transformative research by bridging knowledge, AI, and data into actionable healthcare and educational solutions.
+      </h2>
+      <div class="cta-button-wrapper">
+        <a href="#contact" class="btn btn-outline-cta">GET STARTED NOW</a>
       </div>
-      <p class="copyright">
-        &copy; 2026 EduHealth Research Nexus Group. All Rights Reserved.
-      </p>
     </div>
+  </section>
 
-  </div>
-</footer>
-<script src="script.js"></script>
+  <!-- FOCUS AREAS / RESEARCH DOMAINS SECTION -->
+  <section class="focus-areas-section" id="focus">
+    <div class="container">
+      <div class="section-header">
+        <h2>OUR FOCUS AREAS</h2>
+        <div class="header-line"></div>
+        <p class="section-intro">
+          We conduct collaborative, multidisciplinary research across core domains to transform health delivery, empower learning systems, and solve real-world challenges in Africa.
+        </p>
+      </div>
+
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">ALL DOMAINS</button>
+        <button class="filter-btn" data-filter="health">HEALTH INNOVATION</button>
+        <button class="filter-btn" data-filter="education">EDUCATION SYSTEMS</button>
+        <button class="filter-btn" data-filter="ai-data">AI &amp; DATA SCIENCE</button>
+        <button class="filter-btn" data-filter="digital">DIGITAL TRANSFORMATION</button>
+        <button class="filter-btn" data-filter="practice">RESEARCH TO PRACTICE</button>
+      </div>
+
+      <div class="focus-grid">
+        <div class="focus-card" data-category="health">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800" alt="Health Innovation">
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <span class="plus-icon">+</span>
+              <h3 class="card-title">HEALTH INNOVATION</h3>
+              <p class="card-category">Strengthening Health Systems</p>
+              <p class="card-description">Exploring research-driven solutions to address healthcare challenges and promote better health outcomes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="focus-card" data-category="education">
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800" alt="Education & Learning Systems">
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <span class="plus-icon">+</span>
+              <h3 class="card-title">LEARNING SYSTEMS</h3>
+              <p class="card-category">Capacity Development</p>
+              <p class="card-description">Investigating innovative approaches to improve teaching, learning, and training across educational environments.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="focus-card" data-category="ai-data">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800" alt="Artificial Intelligence & Data Science">
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <span class="plus-icon">+</span>
+              <h3 class="card-title">AI &amp; DATA SCIENCE</h3>
+              <p class="card-category">Emerging Technologies</p>
+              <p class="card-description">Leveraging AI and data-driven approaches to solve complex healthcare and institutional challenges.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="focus-card" data-category="digital">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800" alt="Digital Transformation">
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <span class="plus-icon">+</span>
+              <h3 class="card-title">DIGITAL TRANSFORMATION</h3>
+              <p class="card-category">Institutional Development</p>
+              <p class="card-description">Developing technology-driven solutions that enhance healthcare delivery and research communication.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="focus-card" data-category="practice">
+          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" alt="Research to Practice">
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <span class="plus-icon">+</span>
+              <h3 class="card-title">RESEARCH-TO-PRACTICE</h3>
+              <p class="card-category">Practical Interventions</p>
+              <p class="card-description">Creating practical tools, digital products, and policy solutions that move beyond academic papers.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="focus-card" data-category="health">
+          <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=800" alt="Medical Training & Capacity">
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <span class="plus-icon">+</span>
+              <h3 class="card-title">MEDICAL TRAINING</h3>
+              <p class="card-category">Competent Workforce</p>
+              <p class="card-description">Building capacity and developing innovative tools for health education and medical professionals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISION & MISSION SECTION -->
+  <section class="vision-mission-section" id="vision-mission">
+    <div class="container vm-container">
+      <div class="vm-content">
+        <h2>OUR VISION &amp; MISSION</h2>
+        <p class="vm-intro">
+          Driving change at the intersection of health, education, and technology through high-quality collaborative research and innovation.
+        </p>
+
+        <div class="vm-list">
+          <div class="vm-item">
+            <div class="vm-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+            <div class="vm-text">
+              <h3>VISION STATEMENT</h3>
+              <p>To power transformative research at the intersection of health and education, leveraging data, artificial intelligence, and collaboration to build resilient learners, competent health workers, and stronger institutions.</p>
+            </div>
+          </div>
+
+          <div class="vm-item">
+            <div class="vm-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            </div>
+            <div class="vm-text">
+              <h3>MISSION STATEMENT</h3>
+              <p>To conduct high-quality collaborative research that informs policy, develops innovative tools, and builds capacity in health education, medical training, and learning systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vm-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1000" alt="Researchers collaborating on health and education innovation">
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE VALUES SECTION -->
+  <section class="core-values-section" id="values">
+    <div class="container">
+      <div class="section-header">
+        <h2>OUR CORE VALUES</h2>
+        <div class="header-line"></div>
+        <p class="section-intro">
+          Our work is anchored in shared principles that guide our research practices, partnerships, and commitment to sustainable change.
+        </p>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-box" data-tooltip="We uphold ethical research practices, responsible data management, transparency, and credibility in all our activities.">
+          <div class="value-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div class="value-divider"><span></span></div>
+          <h3 class="value-title">INTEGRITY</h3>
+        </div>
+
+        <div class="value-box" data-tooltip="We focus on research that addresses genuine community needs and ensures solutions are relevant and accessible.">
+          <div class="value-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div class="value-divider"><span></span></div>
+          <h3 class="value-title">EQUITY</h3>
+        </div>
+
+        <div class="value-box" data-tooltip="We embrace technology, creativity, and new approaches to solve complex problems.">
+          <div class="value-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <div class="value-divider"><span></span></div>
+          <h3 class="value-title">INNOVATION</h3>
+        </div>
+
+        <div class="value-box" data-tooltip="We believe impactful solutions emerge through partnerships across disciplines, institutions, and communities.">
+          <div class="value-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+          </div>
+          <div class="value-divider"><span></span></div>
+          <h3 class="value-title">COLLABORATION</h3>
+        </div>
+
+        <div class="value-box" data-tooltip="We are committed to transforming research findings into practical solutions that create measurable change.">
+          <div class="value-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+          </div>
+          <div class="value-divider"><span></span></div>
+          <h3 class="value-title">IMPACT</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="value-tooltip" class="custom-tooltip"></div>
+
+  <!-- FOOTER / FINAL SECTION -->
+  <footer class="footer-section" id="contact">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo-box">
+          <img src="logo.png" alt="EduHealth Research Nexus Logo">
+        </div>
+        <p class="footer-tagline">
+          Multidisciplinary research organisation advancing innovative solutions at the intersection of health, education, technology, and data-driven innovation within the African context.
+        </p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/company/eduhealth-research-nexus" target="_blank" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://twitter.com/EduHealth_nexus" target="_blank" aria-label="Twitter / X">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+          </a>
+          <a href="https://instagram.com/eduhealthresearch_nexus" target="_blank" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="mailto:info@eduhealthresearch.com" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-widgets">
+        <div class="footer-widget">
+          <h4>GET IN TOUCH</h4>
+          <p class="widget-desc">
+            We welcome collaboration with researchers, universities, healthcare institutions, and policymakers.
+          </p>
+          <ul class="contact-info-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>info@eduhealthresearch.com</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Africa &amp; International Operations</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-widget">
+          <h4>RESEARCH DOMAINS</h4>
+          <div class="tag-cloud">
+            <a href="#focus">HEALTH INNOVATION</a>
+            <a href="#focus">EDUCATION SYSTEMS</a>
+            <a href="#focus">AI &amp; DATA SCIENCE</a>
+            <a href="#focus">DIGITAL TRANSFORMATION</a>
+            <a href="#focus">RESEARCH-TO-PRACTICE</a>
+            <a href="#focus">MEDICAL TRAINING</a>
+            <a href="#focus">POLICY</a>
+            <a href="#focus">COLLABORATION</a>
+          </div>
+        </div>
+
+        <div class="footer-widget">
+          <h4>LATEST INITIATIVES</h4>
+          <div class="footer-news-item">
+            <p class="news-title">Bridging research to practice through digital health tools.</p>
+            <span class="news-date">Active Research</span>
+          </div>
+          <div class="footer-news-item">
+            <p class="news-title">Expanding AI and data science collaborations across African institutions.</p>
+            <span class="news-date">Partnership Open</span>
+          </div>
+        </div>
+
+        <div class="footer-widget">
+          <h4>RESEARCH SNAPSHOTS</h4>
+          <div class="footer-gallery-grid">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
+            <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
+            <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=200" alt="Research snapshot">
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-links">
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT US</a>
+          <a href="#focus">FOCUS AREAS</a>
+          <a href="#values">CORE VALUES</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+        <p class="copyright">
+          &copy; 2026 EduHealth Research Nexus Group. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- COMBINED JAVASCRIPT FOR MOBILE MENU TOGGLE, INTERSECTION OBSERVER & FILTER/TOOLTIPS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // --- 1. Mobile Menu Toggle Functionality ---
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      const navLinks = document.querySelectorAll('.nav-menu a');
+
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', () => {
+          navMenu.classList.toggle('active');
+          navToggle.classList.toggle('open');
+        });
+
+        // Close menu when clicking any nav link on mobile
+        navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+            navToggle.classList.remove('open');
+          });
+        });
+      }
+
+      // --- 2. Focus Areas Filter Functionality ---
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const focusCards = document.querySelectorAll('.focus-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filterValue = btn.getAttribute('data-filter');
+
+          focusCards.forEach(card => {
+            if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+              card.classList.remove('hide');
+            } else {
+              card.classList.add('hide');
+            }
+          });
+        });
+      });
+
+      // --- 3. Core Values Tooltip Functionality (Desktop Hover) ---
+      const valueBoxes = document.querySelectorAll('.value-box');
+      const tooltip = document.getElementById('value-tooltip');
+
+      if (tooltip) {
+        valueBoxes.forEach(box => {
+          box.addEventListener('mouseenter', () => {
+            const text = box.getAttribute('data-tooltip');
+            tooltip.textContent = text;
+            tooltip.classList.add('visible');
+          });
+
+          box.addEventListener('mousemove', (e) => {
+            const tooltipX = e.pageX - (tooltip.offsetWidth / 2);
+            const tooltipY = e.pageY - tooltip.offsetHeight - 15;
+            
+            tooltip.style.left = `${tooltipX}px`;
+            tooltip.style.top = `${tooltipY}px`;
+          });
+
+          box.addEventListener('mouseleave', () => {
+            tooltip.classList.remove('visible');
+          });
+        });
+      }
+
+      // --- 4. Intersection Observer for Scroll-into-Center View (Mobile / Touch View) ---
+      if (window.innerWidth <= 992) {
+        const observerOptions = {
+          root: null,
+          rootMargin: '-30% 0px -30% 0px', // Trigger when card enters middle window bounds
+          threshold: 0
+        };
+
+        const observerCallback = (entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in-center');
+            } else {
+              entry.target.classList.remove('in-center');
+            }
+          });
+        };
+
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+        // Observe focus cards and value boxes
+        document.querySelectorAll('.focus-card, .value-box').forEach(el => {
+          observer.observe(el);
+        });
+      }
+    });
+  </script>
 </body>
 </html>
